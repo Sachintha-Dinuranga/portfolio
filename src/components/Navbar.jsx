@@ -10,9 +10,11 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Me section eka poddak blnna  */}
-          <a href="#home" className="">
-            HOME
-          </a>
+          <img
+            src="./assets/coffee.gif"
+            alt="Cofee Break"
+            className="h-10 w-10 object-contain"
+          />
           {/* add hamburger menu */}
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
