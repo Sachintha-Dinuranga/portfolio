@@ -11,9 +11,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           {/* Me section eka poddak blnna  */}
           <img
-            src="./assets/coffee.gif"
+            src="/coffee.gif"
             alt="Cofee Break"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain bg-transparent"
           />
           {/* add hamburger menu */}
           <div
