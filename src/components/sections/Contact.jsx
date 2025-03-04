@@ -7,11 +7,6 @@ const Contact = () => {
   const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
   const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
-  // Debugging: Log environment variables
-  // console.log("SERVICE_ID:", SERVICE_ID);
-  // console.log("TEMPLATE_ID:", TEMPLATE_ID);
-  // console.log("PUBLIC_KEY:", PUBLIC_KEY);
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -34,7 +29,7 @@ const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="px-4 mx-auto max-w-4xl">
+        <div className="px-4 mx-auto max-w-4xl w-full">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 bg-purple-600 bg-clip-text text-transparent text-center">
             Get In Touch With Me
           </h2>
