@@ -140,9 +140,9 @@ const Projects = () => {
               <p className="text-gray-400 mb-4">
                 A React-based web application that allows users to: 🔥 Browse
                 popular movies. 🔍 Search for specific movies. ❤️ Add movies to
-                their favorites list. Explore and manage your movie interests
-                with ease! Built with React and powered by modern APIs for
-                real-time data fetching.
+                their favorites list. Explore and manage movie interests with
+                ease! Built with React and powered by modern APIs for real-time
+                data fetching.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React.js", "CSS", "API"].map((tech, key) => (
