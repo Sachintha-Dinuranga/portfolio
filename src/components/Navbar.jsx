@@ -11,7 +11,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           {/* Me section eka poddak blnna  */}
           <img
-            src="/coffee.gif"
+            src="/logo.gif"
             alt="Cofee Break"
             className="h-10 w-10 object-contain bg-transparent"
           />
