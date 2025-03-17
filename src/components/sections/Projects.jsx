@@ -27,27 +27,34 @@ const Projects = () => {
       link: "https://github.com/Sachintha-Dinuranga/medicare",
     },
     {
+      title: "MovieFlix - Full Stack Mobile Application",
+      description:
+        "A full-stack mobile application that allows users to browse trending and popular movies, view detailed information, and search for their favorite films.",
+      techStack: ["React Native", "Appwrite", "NativeWind"],
+      link: "https://github.com/Sachintha-Dinuranga/movie_app-",
+    },
+  ];
+
+  const moreProjects = [
+    {
+      title: "My-Portfolio",
+      description: "And of course, my portfolio project! 🤗",
+      techStack: ["React", "Tailwind CSS"],
+      link: "https://github.com/Sachintha-Dinuranga/portfolio",
+    },
+    {
       title: "Alien-Invasion",
       description:
         "Alien Invasion is a 2D arcade-style game built using Python and the Pygame module. The goal is to defend your spaceship from waves of alien invaders while aiming for the highest score!😏",
       techStack: ["Python", "Pygame"],
       link: "https://github.com/Sachintha-Dinuranga/alien-invasion",
     },
-  ];
-
-  const moreProjects = [
     {
       title: "Movie-Finder",
       description:
         "A React-based web application that allows users to browse popular movies, search for specific movies, and add movies to their favorites list.",
       techStack: ["React.js", "CSS", "API"],
       link: "https://github.com/Sachintha-Dinuranga/movie-finder",
-    },
-    {
-      title: "My-Portfolio",
-      description: "And of course, my portfolio project! 🤗",
-      techStack: ["React", "Tailwind CSS"],
-      link: "https://github.com/Sachintha-Dinuranga/portfolio",
     },
   ];
 
