@@ -6,6 +6,22 @@ const Projects = () => {
 
   const featuredProjects = [
     {
+      title: "Food Ordering Microservice",
+      description:
+        "Developed a scalable Cloud Native Food Ordering application using Node.js microservices architecture with multiple databases and event-driven communication.",
+      techStack: [
+        "Node.Js",
+        "React.Js",
+        "Tailwind CSS",
+        "Stripe",
+        "Zustand",
+        "MongoDB",
+        "Docker",
+        "Kubernetes",
+      ],
+      link: "https://github.com/Janinduchamod2001425/HelaEats",
+    },
+    {
       title: "Multimaster - (Group Project)",
       description:
         "Full-stack Computer sales and repair management system, Implemented the repair tracking module, enabling users to monitor repair statuses in real-time, ensuring seamless communication between technicians and customers.",
@@ -26,6 +42,9 @@ const Projects = () => {
       techStack: ["Flutter", "Firebase"],
       link: "https://github.com/Sachintha-Dinuranga/medicare",
     },
+  ];
+
+  const moreProjects = [
     {
       title: "MovieFlix - Full Stack Mobile Application",
       description:
@@ -33,9 +52,6 @@ const Projects = () => {
       techStack: ["React Native", "Appwrite", "NativeWind"],
       link: "https://github.com/Sachintha-Dinuranga/movie_app-",
     },
-  ];
-
-  const moreProjects = [
     {
       title: "My-Portfolio",
       description: "And of course, my portfolio project! 🤗",
