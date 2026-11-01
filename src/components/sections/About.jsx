@@ -12,12 +12,11 @@ const About = () => {
     "Tailwind CSS",
   ];
   const backendSkills = [
-    "Java",
     "Python",
     "Node.js",
     "Express.js",
-    "Spring Boot",
     "MySQL",
+    "PostgreSQL",
     "MongoDB",
     "Firebase",
   ];

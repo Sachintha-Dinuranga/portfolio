@@ -6,6 +6,21 @@ const Projects = () => {
 
   const featuredProjects = [
     {
+      title: "Blog-API",
+      description:
+        "A RESTful Blog API built with Node.js, Express, TypeScript, Prisma, and PostgreSQL. Features full CRUD for posts and nested comments, Zod validation, Swagger documentation, and rate limiting.",
+      techStack: [
+        "Node.js",
+        "Express.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "Zod",
+        "Swagger",
+      ],
+      link: "https://github.com/Sachintha-Dinuranga/blog-site",
+    },
+    {
       title: "Food Ordering Microservice",
       description:
         "Developed a scalable Cloud Native Food Ordering application using Node.js microservices architecture with multiple databases and event-driven communication.",
@@ -20,6 +35,13 @@ const Projects = () => {
         "Kubernetes",
       ],
       link: "https://github.com/Janinduchamod2001425/HelaEats",
+    },
+    {
+      title: "Authentication System",
+      description:
+        "A modern full-stack authentication system built with Node.js, Express, PostgreSQL, React, and Tailwind CSS. Features secure JWT-based authentication with bcrypt password hashing, protected routes, and a clean, responsive UI.",
+      techStack: ["MERN Stack", "PostgreSQL", "Postman API"],
+      link: "https://github.com/Suchindu/multimaster-web",
     },
     {
       title: "Multimaster - (Group Project)",
@@ -113,7 +135,7 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-              )
+              ),
             )}
           </div>
           <div className="text-center mt-8">
