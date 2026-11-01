@@ -14,16 +14,15 @@ const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-3xl mx-auto">
-            As an enthusiastic undergraduate student at SLIIT pursuing a degree
-            in Software Engineering, I have developed a strong passion for
-            full-stack development. Through both personal and academic projects,
-            I’ve gained hands-on experience with technologies like the MERN
-            Stack, Spring Boot, and Python. I enjoy building end-to-end
-            solutions that solve real-world problems and thrive on the challenge
-            of creating seamless, user-friendly applications. Whether it’s
-            developing dynamic web applications or collaborating on team
-            projects, I’m constantly learning and refining my skills. Explore my
-            portfolio to see my work!
+            As a recent Software Engineering graduate from SLIIT, I've developed
+            a strong passion for full-stack development. Through both personal
+            and academic projects, I've gained hands-on experience with
+            technologies like the MERN stack, Next.js, and Python. I enjoy
+            building end-to-end solutions that solve real-world problems and
+            thrive on the challenge of creating seamless, user-friendly
+            applications. Whether it's developing dynamic web applications or
+            collaborating on team projects, I'm constantly learning and refining
+            my skills. Explore my portfolio to see my work!
           </p>
           {/* Download resume */}
           <div className="flex justify-center space-x-4">
